@@ -1,0 +1,163 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #212121;
+	color: white;
+}
+.all{
+	padding: 20px  15px;
+	padding-bottom: 80px;
+}
+
+.head{
+}
+.top-head{
+	display: flex;
+	position: relative;
+
+}
+.logo{
+	display: flex;
+}
+.logo img{
+	width: 100px;
+	cursor: pointer;
+	outline: none;
+	border: none;
+}
+.head-icon{
+	right: 10px;
+	position: absolute;
+}
+.head-icon img{
+	width: 23px;
+	height: 23px;
+	border-radius: 50%;
+	margin-right: 7px;
+	cursor: pointer;
+	outline: none;
+	border: none;
+
+}
+
+.head-button{
+	position: relative;
+	justify-content: space-between;
+	overflow: hidden;
+	margin-top: 8px;
+}
+.head-button input[type=button]{
+	padding: 5px;
+	border-radius: 10px;
+	border: 1px solid #414141;
+	outline: none;
+	background-color: #383838;
+	color: white;
+	font-weight: 100;
+	font-size: 13px;
+	cursor: pointer;
+	display: inline-block;
+	margin-top: 5px;
+}
+.head-button input[type=button]:hover{
+	background-color: #5a5959;
+	color: #fff; 
+	transition: 0.3s;
+}
+
+.main-content{
+	margin-top: 20px;
+	position: relative;
+}
+.ads{
+	display: flex;
+	margin-left: 5px;
+}
+.ads img{
+	width: 30%;
+	border-radius: 3px;
+}
+.ads-text{
+	margin-left: 20px;
+}
+.ads-text p{
+	font-size: 12px;
+	margin-top: 3px;
+}
+
+.watch-video{
+	text-align: center;
+	margin: auto;
+}
+.main-video{
+	position: relative;
+	display: inline-block;
+	width: 45%;
+	justify-content: center;
+	margin-top: 20px;
+	margin-right: 15px;
+	cursor: pointer;
+}
+.main-video video{
+	width: 100%;
+}
+.main-video img{
+	width: 100%;
+	border-radius: 3px;
+}
+.main-video-text{
+	margin-top: 10px;
+	display: flex;
+	width: 100%;
+	text-align: left;
+}
+.main-video-text img{
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+}
+.video-text{
+	margin-left: 10px;
+}
+.video-text p{
+	font-size: 13px;
+	margin-top: 3px;
+}
+.main-video-text span{
+	color: gray;
+	float: right;
+	margin-top: -22px;
+	margin-right: 5px;
+	display: none;
+}
+
+.down-button{
+	display: flex;
+	bottom: 0px;
+	padding: 13px 55px;
+	justify-content: space-between;
+	width: 100%;
+	font-size: 13px;
+	
+	box-shadow: 0px 5px 15px 0px #414141;
+	position: fixed;
+	background-color: #212121;
+}
+.link{
+	display: inline-block;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	border: none;
+}
+.link img{
+	width: 20px;
+}
+.plus img{
+	width: 35px;
+}
