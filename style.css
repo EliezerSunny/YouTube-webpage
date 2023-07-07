@@ -93,14 +93,13 @@ body{
 .watch-video{
 	text-align: center;
 	margin: auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 10px;
 }
 .main-video{
 	position: relative;
-	display: inline-block;
-	width: 45%;
-	justify-content: center;
 	margin-top: 20px;
-	margin-right: 15px;
 	cursor: pointer;
 }
 .main-video video{
